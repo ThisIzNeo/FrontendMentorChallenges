@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", serif;
+  text-decoration: none;
+  transition: 0.3s ease all;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.header p {
+  font-size: 38px;
+  color: #969696;
+  margin: 30px 0 15px 0;
+}
+
+.header span {
+  color: #151f29;
+  font-weight: 600;
+}
+
+.sm-title {
+  padding: 10px;
+}
+
+.division {
+  margin-top: 15px;
+}
+
+.division .input {
+  padding: 15px;
+  border: 1px solid #c2d3ff;
+  width: 375px;
+  color: #4f7df3;
+  border-radius: 25px;
+  outline: none;
+}
+
+.division button {
+  background: #4f7df3;
+  border: none;
+  padding: 15px 25px;
+  margin-left: 10px;
+  font-weight: 500;
+  box-shadow: #9cb0e4 1px 0px 30px 1px;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.division button:hover {
+  background: #7399f8;
+}
+
+.division button:active {
+  transform: scale(0.9);
+}
+
+.division input::placeholder {
+  color: #9cb0e4;
+}
+
+.demo {
+  margin: 30px;
+  width: 700px;
+}
+
+.demo img {
+  width: 100%;
+}
+
+.social-media {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7399f8;
+  font-size: 18px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #cdd9fa;
+  margin: 30px 10px;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  cursor: pointer;
+  background: #4f7df3;
+  color: #fff;
+}
+
+.copyright {
+  color: #b4b4b4;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 15px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.err {
+  color: #e43e3e;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.invalid {
+  padding: 15px;
+  border: 1px solid #e43e3e;
+  width: 375px;
+  border-radius: 25px;
+  color: #e43e3e;
+  outline: #e43e3e;
+}
+.valid {
+  border-color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 720px) {
+  .demo {
+    width: 345px;
+  }
+  .division {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: px auto;
+    width: 345px;
+  }
+  .division .input {
+    border: 1px solid #c2d3ff;
+    width: 100%;
+  }
+  .division button {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .header p {
+    font-size: 20px;
+    color: #969696;
+    margin: 30px 0 15px 0;
+  }
+  
+  .header span {
+    color: #151f29;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 425px) {
+    .header p {
+        font-size: 16px;
+        color: #969696;
+        margin: 20px auto;
+        text-align: center;
+        width: 345px;
+      }
+      .division {
+        width: 300px;
+      }
+      .sm-title {
+        font-size: 12px;
+        text-align: center;
+        width: 345px;
+
+      }
+      .header span {
+        color: #151f29;
+        font-weight: 700;
+      }
+      .demo {
+        width: 320px;
+      }
+      .copyright {
+        font-size: 14px;
+        text-align: center;
+        width: 320px;
+      }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="Ping." />
+      </div>
+      <div class="header">
+        <p>We are launching <span>soon!</span></p>
+      </div>
+      <div class="sm-title">
+        <p>Subscribe and get notified</p>
+      </div>
+      <div class="division">
+          <input type="email" spellcheck="false" onkeyup="redbox()" class="input invalid" id="email" placeholder="Your email address..." />
+          <button type="submit" id="submit">Notifye Me</button>
+          <div id="err" class="err"></div>
+      </div>
+      <div class="demo">
+        <img src="./images/illustration-dashboard.png" alt="Demo." />
+      </div>
+      <div class="social-media">
+        <a href="#" class="icon"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="icon"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="icon"><i class="bx bxl-instagram"></i></a>
+      </div>
+      <div class="copyright">&copy; Copyright Ping. All rights reserved.</div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://www.github.com/thisizneo">ThisIzNeo</a>.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
