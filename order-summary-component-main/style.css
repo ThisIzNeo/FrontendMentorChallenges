@@ -179,7 +179,7 @@ main .description{
 
 .wave {
     background: url(./images/pattern-background-desktop.svg), no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 470px;
 }
 }

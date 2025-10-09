@@ -24,6 +24,12 @@ I'm taking on **Frontend Mentor** challenges to:
 🔹 Build a strong portfolio of real-world projects  
 
 ## 🚧 Challenges Completed  
-[List of challenges you've completed or currently working on]  
+challenge 1 -  blog preview card -> <a href="">Live Demo</a>
+challenge 2 -  nft preview card -> <a href="">Live Demo</a>
+challenge 3 -  order summary component -> <a href="">Live Demo</a>
+challenge 4 -  ping comming soon -> <a href="">Live Demo</a>
+challenge 5 -  qr code component -> <a href="">Live Demo</a>
+challenge 6 -  social links profile -> <a href="">Live Demo</a>
+challenge 7 -  results summary component -> <a href="">Live Demo</a>
 
 If you're also tackling Frontend Mentor challenges, feel free to check out my work, suggest improvements, or even collaborate! 🚀  
