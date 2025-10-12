@@ -25,7 +25,7 @@ I'm taking on **Frontend Mentor** challenges to:
 
 ## 🚧 Challenges Completed  
 challenge 1 -  blog preview card -> <a href="blogpreviewcardmain.vercel.app">Live Demo</a><br>
-challenge 2 -  nft preview card -> <a href="">Live Demo</a><br>
+challenge 2 -  nft preview card -> <a href="https://frontend-mentor-challenges-u6zf.vercel.app/">Live Demo</a><br>
 challenge 3 -  order summary component -> <a href="https://order-summary-main-alpha.vercel.app/">Live Demo</a><br>
 challenge 4 -  ping comming soon -> <a href="frontend-mentor-challenges-gules.vercel.app">Live Demo</a><br>
 challenge 5 -  qr code component -> <a href="qr-code-component-main-gamma-one.vercel.app">Live Demo</a><br>
