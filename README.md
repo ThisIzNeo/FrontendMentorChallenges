@@ -30,6 +30,6 @@ challenge 3 -  order summary component -> <a href="https://order-summary-main-al
 challenge 4 -  ping comming soon -> <a href="frontend-mentor-challenges-gules.vercel.app">Live Demo</a><br>
 challenge 5 -  qr code component -> <a href="qr-code-component-main-gamma-one.vercel.app">Live Demo</a><br>
 challenge 6 -  social links profile -> <a href="sociallinksprofile-steel.vercel.app">Live Demo</a><br>
-challenge 7 -  results summary component -> <a href="">Live Demo</a><br>
+challenge 7 -  results summary component -> <a href="https://results-summary-componente.netlify.app/">Live Demo</a><br>
 
 If you're also tackling Frontend Mentor challenges, feel free to check out my work, suggest improvements, or even collaborate! 🚀  
